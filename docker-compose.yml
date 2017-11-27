@@ -1,7 +1,7 @@
 nginx:
   build: ./nginx
   ports:
-    - 80:80
+    - 8001:80
   links:
     - php
   volumes_from:
